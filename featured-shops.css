@@ -1,0 +1,158 @@
+.featured-shops-wrapper {
+  padding: 20px;
+  color: #1D375A;
+}
+
+.featured-shops-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.featured-shops-title {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.featured-shops-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-shops-card {
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-shops-card-image {
+  max-height: 96px;
+  height: 100%;
+  margin-bottom: 20px;
+
+}
+
+.featured-shop-card {
+  width: 311.91px;
+  margin: 24px;
+  height: 284.15px;
+  position: relative;
+  border-radius: 16px;
+  background-color: #1D375A;
+  cursor: pointer;
+}
+
+.featured-shop-card:hover .featured-shop-card-image {
+
+  transform: translate(-5px, -5px);
+}
+
+.featured-shop-card.time-center {
+  background-color: #294164;
+}
+
+.featured-shop-card.guess {
+  background-color: #B7C6DA;
+}
+
+.featured-shop-card.louis-vutton {
+  background-color: #0F2A49;
+}
+
+.featured-shop-card.shein {
+  background-color: #B7C6DA;
+}
+
+.featured-shop-card.zara {
+  background-color: #294164;
+}
+
+.featured-shop-card.chanel {
+  background-color: #7A90B6;
+}
+
+.featured-shop-card-image {
+  width: 100%;
+  height: 100%;
+  bottom: 40px;
+  right: 50px;
+  width: 285.78px;
+  object-fit: cover;
+  height: 260.34px;
+  position: absolute;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-text {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .featured-shops-cards-container {
+    justify-content: center;
+  }
+
+  .featured-shop-card {
+    width: 240px;
+    height: 240px;
+    margin: 16px;
+  }
+
+  .featured-shop-card-image {
+    width: 224px;
+    height: 224px;
+    bottom: 30px;
+    right: 40px;
+  }
+
+  /* Adjust title size */
+  .featured-shops-title {
+    font-size: 40px;
+    text-align: center;
+  }
+
+
+}
+
+@media screen and (max-width: 900px) {
+  .featured-shops-cards-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .featured-shop-card {
+    width: 200px;
+    height: 200px;
+    margin: 12px;
+  }
+
+  .featured-shop-card-image {
+    width: 184px;
+    height: 184px;
+    right: 30px;
+  }
+
+  /* Further reduce title size */
+  .featured-shops-title {
+    font-size: 32px;
+    text-align: center;
+  }
+
+
+}
