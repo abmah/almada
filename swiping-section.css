@@ -2,11 +2,11 @@
   position: relative;
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
 }
 
 .swiper-signposting {
@@ -98,7 +98,7 @@
 
 .fake-slide {
   width: 10% !important;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 
 
@@ -120,4 +120,13 @@
 
 .swiper-slide:nth-child(6) .slide-container {
   transform: translateX(-130px);
+}
+
+.stripe-background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  display: none;
 }

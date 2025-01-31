@@ -2,6 +2,7 @@
   width: 100%;
   background-color: #91A1C2;
   color: #1D375A;
+  position: relative;
 }
 
 .above-the-fold-opacity-background {
@@ -62,13 +63,15 @@
   right: 0;
   z-index: 0;
   bottom: 0;
+
+  height: 87%;
 }
 
 .phone-image {
   object-fit: cover;
-  width: 100%;
+  height: 100%;
 
-  max-width: 700px;
+
 }
 
 @media (max-width: 767px) {
